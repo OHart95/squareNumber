@@ -1,0 +1,38 @@
+label, input {
+    display: block;
+}
+
+label {
+    padding-bottom: 10px;
+}
+
+input {
+    margin-bottom: 20px;
+    height: 2rem;
+    font-size: 1rem;
+    border-color: rgba(214, 214, 214, 1);
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+html {
+    font-size: 16px; /* Base size (optional, browsers default to 16px) */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 2rem; /* 32px */
+}
+
+p {
+    font-size: 1rem; /* 16px */
+}
+
+.flexbox {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(245, 245, 245, 1)
+}

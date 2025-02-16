@@ -1,0 +1,12 @@
+function getSquareNumbers () {
+
+    //identify the upper limit of the square numbers
+    let upperLimit = document.getElementById("numberInput").value;
+    //loop through the numbers until reaching the identified limit
+    for(let i = 0; i <= upperLimit; i++) {
+        let squareCalc = i * i;
+        let formattedResult = `${i} * ${i} = ${squareCalc}..`
+        console.log(formattedResult);
+    }
+    //return the list of square numbers, formatted in a human readable way
+};
