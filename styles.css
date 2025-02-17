@@ -1,3 +1,42 @@
+:root {
+    --SKANSKA_BLUE: #143275;
+    --SKANSKA_DIMWHITE: rgb(245,245,245);
+    --SKANSKA_MIDDLEGREY: rgb(236,236,236);
+    --SKANSKA_DARKGREY: rgb(214,214,214);
+}
+
+/* Box-sizing border-box for all elements */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Smooth font rendering */
+  body {
+    font-family: system-ui, sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  /* Remove list styles */
+  ul, ol {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Links */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Basic form element styling */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+
 label, input {
     display: block;
 }
@@ -10,6 +49,7 @@ input {
     margin-bottom: 20px;
     height: 2rem;
     font-size: 1rem;
+    border: 1px solid #000;
     border-color: rgba(214, 214, 214, 1);
     border-radius: 0.5rem;
     padding-left: 0.5rem;
@@ -22,6 +62,7 @@ html {
 
 h1 {
     font-size: 2rem; /* 32px */
+    color: var(--SKANSKA_BLUE);
 }
 
 p {
@@ -29,7 +70,8 @@ p {
 }
 
 .flexbox {
-    padding: 2rem;
+    margin: 1rem;
+    padding: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
